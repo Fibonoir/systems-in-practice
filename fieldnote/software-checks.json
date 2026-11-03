@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-03",
+  "checks": [
+    {
+      "python": "3.12.14",
+      "tests_passed": 26,
+      "commands": [
+        {
+          "arguments": [
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.messages"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.structured"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "list"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.search"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "read",
+            "access.txt"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "ask",
+            "What is the replacement-card fee?",
+            "--demo"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "ask",
+            "Card fee?",
+            "--demo"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.evidence"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.loop_walk"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.memory"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.recovery"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.evaluate"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "python": "3.14.5",
+      "tests_passed": 26,
+      "commands": [
+        {
+          "arguments": [
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.messages"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.structured"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "list"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.search"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "read",
+            "access.txt"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "ask",
+            "What is the replacement-card fee?",
+            "--demo"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "fieldnote",
+            "ask",
+            "Card fee?",
+            "--demo"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.evidence"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.loop_walk"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.memory"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.recovery"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "-m",
+            "labs.evaluate"
+          ],
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "python_source_sha256": {
+    "fieldnote/agent.py": "8176f74ae90324abe5043607790bd236860ece3f5eddb77f84448045659fcdfa",
+    "fieldnote/corpus.py": "13e5b30691c8412423e1963d9e0d5b53fc7a32ca06a5aa47890e55aea2607b67",
+    "fieldnote/notes.py": "ee0d04eca2d5f0becfc2e3dc56d45538bc2e7b93f66f298c56cebad39b313428",
+    "fieldnote/protocol.py": "66f65d6fa4f9bb687ed6f4cd0062060511926547a2ea83c8485625fa42b0f8f7",
+    "fieldnote/provider.py": "e15459bbad5e745bceac539b73e0d12dca2dcb1cdfb526e37511b0fe80ed536f",
+    "fieldnote/__init__.py": "ede62ec3579fade233322b436c8751e40b44ed10f8eacde8114c3dabeca29a02",
+    "fieldnote/__main__.py": "5c7bc4a2e4aeaa7c9a5eb77639b24a46c0475ef7db8bfecacda9aacdea18fd2b",
+    "labs/evaluate.py": "cbfffc7de7c9d021ac2dce1883a0c0a741242008d7ee432d65001de9f9a8083e",
+    "labs/evidence.py": "ffe598f9f757372f0a4fb228781e310749183c0e4b0c15357a4d813b76955553",
+    "labs/live_evaluate.py": "c5f1080418d3f51bb52605675f6f7c8f91024c0ea04f4664e4815bc31df55f36",
+    "labs/loop_walk.py": "ff07400a81690620f1386f366e1b43ae426a0f1aadb08201268e5306c0251240",
+    "labs/memory.py": "e5962039021958c716511fe1deb0137ee65bebb6e5094bca7a6c33249bdbfdba",
+    "labs/messages.py": "aee272584fe68a3eacd7cdd39b6404b29cf9521bb6f2165950e003c634444430",
+    "labs/recovery.py": "48b590e07cac2d6c14b253c8cf02a87d4bc24169e39f8ec5ea15ef68023e1b17",
+    "labs/search.py": "5776491b17081d7a92410867e71e32aba9afff0da951c7f3f6864f8c64a1e83c",
+    "labs/structured.py": "f74176b07166be951269339e7deb0d38c78e0b6edc30b13115ac25f4a1818aab",
+    "labs/__init__.py": "bcb68318f2dd4e082e97b55543a0c4a188c507f5e4e2e29536de089e1067d00a",
+    "tests/test_fieldnote.py": "8f0e956e80ccd1672904e06aacd62b27d20f586552bcd62c154661932e325f34",
+    "tests/test_notes.py": "75c3d7479961ed0c0523b3f2936645f6c07c55cd087da18e26eb297ed62c28a0"
+  },
+  "live_check": "verification/live-evaluation.jsonl",
+  "live_cli": "Greeting and fee-question CLI executed on the named local model. Greeting handles unsupported console characters with backslash escapes."
+}

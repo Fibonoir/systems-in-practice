@@ -1,0 +1,4 @@
+[
+  {"role": "assistant", "content": "", "tool_calls": [{"function": {"name": "search", "arguments": {"query": "replacement fee access", "limit": 3}}}]},
+  {"role": "assistant", "content": "{\"status\":\"answered\",\"answer\":\"The current replacement-card fee is 12 credits.\",\"citations\":[{\"chunk_id\":\"access.txt:4\",\"quote\":\"The replacement fee is 12 credits.\"}]}"}
+]
