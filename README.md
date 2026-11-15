@@ -16,6 +16,12 @@ The examples use fictional or synthetic data. Follow each book's prerequisites, 
 
 [Browse the agent source and setup instructions](fieldnote/README.md). The local-model setup names the exact tested Ollama model. The included live evaluation records ten semantic passes and two failures across twelve cases; quotation validation is not a guarantee of correctness.
 
+## Build MCP Servers with Python
+
+[Download Benchdesk 1.0.0](https://github.com/Fibonoir/systems-in-practice/releases/download/benchdesk-v1.0.0/benchdesk-companion.zip), extract it, then follow the enclosed README. This fictional repair-desk integration uses MCP 2.3.0 and includes read-only tools, resources, prompts, controlled writes and a local authentication lab.
+
+[Browse source, setup and local-model results](benchdesk/README.md). The 24-test Windows software suite passes. Ten separate local-model tasks include seven successful outcomes, two failures and one unexercised commit; those limits are recorded in HOST-RESULTS.md. Core tests require no model account.
+
 ## Versions and corrections
 
 Use the release archive named by your book edition. The repository's main branch may receive later corrections. Release notes identify changes. Report reproducible code or text issues through this repository's Issues tab; omit passwords, personal documents and other private data.

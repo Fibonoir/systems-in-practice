@@ -1,0 +1,21 @@
+{
+  ".gitignore": "368222a9d3593fabbeace7a472c4a39b35053939d6673ec661b40be024069ced",
+  "HOST-RESULTS.md": "b474ac6facaef459110d861351a35abe56e2f9af5c785a9ec70744492a3a8c2f",
+  "host-traces.json": "fc6e6298bb00e09552fc95882deee28c8d1a42ee4411e1b7f902bed1efaa026f",
+  "LICENSE": "f8ebf2d495bc916398bcdbc70d49361b34b58c6c28b282a96625cf4a1d4400db",
+  "pyproject.toml": "706e4a2a584780a6bd8708e294b6613a423ea5ad7267330a90cb409e0facd39e",
+  "README.md": "0092d93731b8196f95867332075bf5a8c4e1887e908ccbc4a10d87c2e152d2f1",
+  "benchdesk/auth_lab.py": "c5446d67ee328b495c7198680dc463112a079916b03bded25c097f2e4556cbfb",
+  "benchdesk/client.py": "34e81bde7d3cb56e3ec95b9763c6e57a275293e9c2880d9fc8e35026563320db",
+  "benchdesk/models.py": "6fd1cbe01e4fd49c7b2d27a346f1ae69bd3e786fba96adf8dd52e2eba1893d92",
+  "benchdesk/server.py": "9deb9df7f884f59f32bc48dd3aee2926d6652fa0f25511dd48d2987ed443997e",
+  "benchdesk/store.py": "18764fa065f1778bc85c3c86d451e7891be9ab76ddfec1d0877bd503808f2482",
+  "benchdesk/__init__.py": "3acaee06ec73ec988ee8ad760828d4fccd4c6275f21a74527545f80eab29bf03",
+  "benchdesk/__main__.py": "7fbe436b5c60a8414455043ed8325c0fcb0523d300604d814e29397bcd0a87cd",
+  "labs/auth_client.py": "b85a80efa91c8bfb5b341b9527881192b9c42d06a366594ff60c0afc338d85fd",
+  "labs/host-acceptance.md": "dccac9a72a2249df8248ff66b4ce30ed5e5b311f88f17c71586061c2efe47c1c",
+  "labs/write_workflow.py": "b5ca738a063f1695f04d71e93ffb40c5eb6d80c167acc3a7900e276e34ca9523",
+  "tests/test_http.py": "6c12923f47f5a251fba64119bbeaae1db4ed4ee4eb853a50003971ee24ac6f2b",
+  "tests/test_mcp.py": "6a02e3803d2ae722b456707b43c547104de06c467f88631306a23e2568761eee",
+  "tests/test_store.py": "92ecb78e6fde41a192437cf1344ab0c8dd9873393e32170943ce965a0562aa3c"
+}
