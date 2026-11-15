@@ -1,0 +1,6 @@
+services:
+  hello:
+    image: ${CADDY_IMAGE:-caddy:2-alpine}
+    command: [caddy, file-server, --root, /srv, --listen, ':80']
+    ports: ['127.0.0.1:${FIRST_PORT:-8087}:80']
+    volumes: ['./hello:/srv:ro']

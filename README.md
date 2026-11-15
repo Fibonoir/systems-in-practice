@@ -22,6 +22,12 @@ The examples use fictional or synthetic data. Follow each book's prerequisites, 
 
 [Browse source, setup and local-model results](benchdesk/README.md). The 24-test Windows software suite passes. Ten separate local-model tasks include seven successful outcomes, two failures and one unexercised commit; those limits are recorded in HOST-RESULTS.md. Core tests require no model account.
 
+## Self-Hosting with Docker Compose
+
+[Download Workshop Shelf 1.0.0](https://github.com/Fibonoir/systems-in-practice/releases/download/workshop-shelf-v1.0.0/workshop-shelf-companion.zip), extract it, then follow the enclosed README and the book's local setup. Keep the files together; container images are downloaded separately from their upstream registries.
+
+[Browse the source and runtime observations](workshop-shelf/README.md). The native Linux checks cover secret permissions, persistence, dependency failure, off-guest backup retrieval, fresh-project restoration, and schema migration. The app is a local teaching fixture without authentication; it is unsuitable for public exposure.
+
 ## Versions and corrections
 
 Use the release archive named by your book edition. The repository's main branch may receive later corrections. Release notes identify changes. Report reproducible code or text issues through this repository's Issues tab; omit passwords, personal documents and other private data.

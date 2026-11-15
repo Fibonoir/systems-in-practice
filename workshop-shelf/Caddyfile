@@ -1,0 +1,10 @@
+{
+    auto_https off
+    admin off
+}
+:80 {
+    reverse_proxy app:8000
+    log {
+        output stdout
+    }
+}

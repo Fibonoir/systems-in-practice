@@ -1,0 +1,16 @@
+services:
+  reader:
+    image: ${FRESHRSS_IMAGE:-freshrss/freshrss:1.30.4}
+    ports: ['127.0.0.1:${READER_PORT:-8091}:80']
+    environment:
+      TZ: UTC
+    volumes:
+      - reader_data:/var/www/FreshRSS/data
+      - reader_extensions:/var/www/FreshRSS/extensions
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: {max-size: 5m, max-file: '3'}
+volumes:
+  reader_data:
+  reader_extensions:
